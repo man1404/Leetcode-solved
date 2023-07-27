@@ -10,7 +10,7 @@ public:
           queue<int> q;
         q.push(src);
         
-        vis[src] =0;
+        vis[src] =1;
         
       
         while(!q.empty())
