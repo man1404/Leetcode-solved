@@ -19,7 +19,7 @@ public:
             {
                 if( vis[it] == -1)
                 {
-                    vis[it] = !vis[node];
+                    vis[it] = 1-vis[node];
                     q.push(it);
                     
                 }
