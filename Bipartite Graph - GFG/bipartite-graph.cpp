@@ -7,12 +7,10 @@ class Solution {
 public:
     bool bfs(int src, vector<int> adj[] ,  int vis[])
     {
+         vis[src] =1;
           queue<int> q;
         q.push(src);
         
-        vis[src] =1;
-        
-      
         while(!q.empty())
         {
             int node = q.front();
